@@ -1,15 +1,22 @@
+:root {
+	--main1: #405d72;
+	--main2: #758694;
+	--secondary1: #f7e7dc;
+	--secondary2: #fff8f3;
+}
+
 * {
 	font-family: "Montserrat", sans-serif;
 }
 
 body {
-	background-color: #758694;
+	background-color: var(--main2);
 }
 
 .section-con {
 	padding: 10px;
 	border-radius: 3px;
-	background-color: #fff8f3;
+	background-color: var(--secondary2);
 }
 
 a {
